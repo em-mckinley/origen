@@ -15,6 +15,7 @@ import sys
 
 def timeConversion(s):
     # Write your code here
+    print(s)
     return True
 
 
