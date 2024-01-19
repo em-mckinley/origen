@@ -1,16 +1,33 @@
-# This is a sample Python script.
+#!/bin/python3
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import math
+import os
+import random
+import re
+import sys
 
+#
+# Complete the 'timeConversion' function below.
+#
+# The function is expected to return a STRING.
+# The function accepts STRING s as parameter.
+#
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def timeConversion(s):
+    # Write your code here
+    return True
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    #fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    #fptr = sys.stdout  # stdout is already an open stream
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    s = input()
+
+    result = timeConversion(s)
+    print(str(result) + '\n')
+
+    #fptr.write(result + '\n')
+
+    #fptr.close()
